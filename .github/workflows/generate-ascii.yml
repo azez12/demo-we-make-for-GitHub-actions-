@@ -13,8 +13,7 @@ jobs:
       run: ls -ltra
 
 
-    - name: excuting shell script
-      run: |
-         chmod +x ./asci-script.sh
-         ./asci-script.sh
+    - name: executing shell script
+      run: chmod +x ./asci-script.sh && ./asci-script.sh
+
     
