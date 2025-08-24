@@ -15,6 +15,6 @@ jobs:
 
     - name: excuting shell script
       run: |
-       chmod +x asci-script.sh
-       ./asci-script.sh
+         chmod +x asci-script.sh
+         ./asci-script.sh
     
