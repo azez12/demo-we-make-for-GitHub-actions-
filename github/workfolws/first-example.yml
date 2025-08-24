@@ -5,7 +5,7 @@ jobs:
     first_job:
       runs-on: ubuntu-latest
       steps:
-       - name: welcome messagge
+       - name: welcome message
          run: echo "mu first welcome message"
      
        - name: list files
